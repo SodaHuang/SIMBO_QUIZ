@@ -2,7 +2,7 @@ public class Calculate {
     public String getSolution(Integer[] arr, Integer sum) {
         String solution = "No valid pair exists";
 
-        if (null == arr || arr.length < 2) {
+        if (null == arr || arr.length <= 2) {
             solution = "please enter more than two number";
         } else {
             Boolean isBreak = false;
